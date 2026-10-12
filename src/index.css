@@ -1,0 +1,22 @@
+.navbar {
+  min-height: 65px;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    padding: 10px 0;
+  }
+
+  .navbar-nav {
+    align-items: stretch !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 8px 12px;
+  }
+
+  .navbar-nav .btn {
+    align-self: flex-start;
+    margin-top: 8px;
+  }
+}
